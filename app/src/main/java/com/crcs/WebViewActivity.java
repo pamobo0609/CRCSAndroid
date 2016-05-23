@@ -102,7 +102,7 @@ public class WebViewActivity extends AppCompatActivity {
         //Get webview
         webView = (WebView) findViewById(R.id.webView);
 
-        String webViewUrl = "http://192.168.1.12:8080/CRConsultingServices";
+        String webViewUrl = "http://10.18.2.10:8080/CRConsultingServices";
 
         webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
